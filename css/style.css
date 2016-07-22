@@ -1,0 +1,31 @@
+#quote {
+  font-family:fantasy;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+}
+
+.jumbotron {
+  background-position: center;
+  background-image: url("file:///C:/Users/Michael/Desktop/Pizza/img/pinstripe.jpg");
+}
+
+html {
+  background-color: black;
+}
+
+body  {
+  color: white;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  border-style: double;
+  border-width: thick;
+  border-color: grey;
+}
