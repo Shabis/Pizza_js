@@ -1,21 +1,20 @@
 #quote {
-  font-family:fantasy;
+  font-family: serif;
   font-weight: lighter;
   font-style: italic;
   text-align: center;
+  background-color: black;
 }
 
 .jumbotron {
-  background-position: center;
-  background-image: url("file:///C:/Users/Michael/Desktop/Pizza/img/pinstripe.jpg");
-}
-
-html {
   background-color: black;
+  background-position: center;
+  background-image: url("file:///C:/Users/Carol/Desktop/Pizza_js/img/pinstripe.jpg");
 }
 
 body  {
   color: white;
+  background-color: black;
 }
 
 #logo {
@@ -24,8 +23,16 @@ body  {
   margin-right: auto;
 }
 
-form {
+form, #thanks {
   border-style: double;
   border-width: thick;
   border-color: grey;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  margin: 50px;
+}
+
+#thanks {
+  display: none;
 }
