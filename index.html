@@ -13,72 +13,76 @@
       <br>
       <img id="logo" src="img/logo.png" alt="logo">
     </header>
-    <h2 id="quote">Prima mangiamo...quindi facciamo tutto il resto.</h2>
-    <br>
-    <br>
-    <form>
+    <h2 id="quote">Prima mangiamo...quindi facciamo tutto il resto.</h3>
+
+    <form id="pizza-order">
       <div id="size">
-        <h2>Choose your size:</h2>
-        <input type="radio" name="size" value="small">
-        <label>$8.99</label>
+        <h3>Choose your size:</h3>
+        <input type="radio" name="size" value="8.00" checked>
+        <label>$8.00</label>
         <img src="img/size-small.png">
-        <input type="radio" name="size" value="medium">
-        <label>12.99</label>
+        <input type="radio" name="size" value="12.00">
+        <label>12.00</label>
         <img src="img/size-medium.png">
-        <input type="radio" name="size" value="large">
-        <label>$17.99</label>
+        <input type="radio" name="size" value="17.00">
+        <label>$17.00</label>
         <img src="img/size-large.png">
-        <input type="radio" name="size" value="xlarge">
-        <label>$23.99</label>
+        <input type="radio" name="size" value="23.00">
+        <label>$23.00</label>
         <img src="img/size-xlarge.png">
       </div>
       <br>
       <br>
       <div id="meat-choice">
-        <h2>Choose a meat</h2>
+        <h3>Choose a meat:</h3>
         <select class="form-control" id="meat">
-          <option>pepperoni</option>
-          <option>sausage</option>
-          <option>canadian bacon</option>
-          <option>meat lovers</option>
-          <option>bacon</option>
+          <option value="0">none</option>
+          <option value="0">pepperoni</option>
+          <option value="0">sausage</option>
+          <option value="0">canadian bacon</option>
+          <option value="0">meat lovers</option>
+          <option value="0">bacon</option>
         </select>
       </div>
       <br>
       <br>
       <div id="meat-choice2">
-        <h2>Choose an addtional meat topping for $2.49</h2>
+        <h3>Choose an addtional meat topping for $2.00:</h3>
         <select class="form-control" id="meat2">
-          <option>pepperoni</option>
-          <option>sausage</option>
-          <option>canadian bacon</option>
-          <option>meat lovers</option>
-          <option>bacon</option>
+          <option value="0">none</option>
+          <option value="2.00">pepperoni</option>
+          <option value="2.00">sausage</option>
+          <option value="2.00">canadian bacon</option>
+          <option value="2.00">meat lovers</option>
+          <option value="2.00">bacon</option>
         </select>
       </div>
       <br>
       <br>
       <div>
-        <h2>Choose up to three additional topping. $0.50 for each addtional topping</h2>
-        <input type="checkbox">
-        <label>avacado</label>
-        <input type="checkbox">
+        <h3>Choose additional topping for $1.00 each:</h3>
+        <input type="checkbox" name="topping" value="1.00">
+        <label>pineapple</label>
+        <input type="checkbox" name="topping" value="1.00">
         <label>olives</label>
-        <input type="checkbox">
+        <input type="checkbox" name="topping" value="1.00">
         <label>green peppers</label>
-        <input type="checkbox">
-        <label>pepperchini</label>
-        <input type="checkbox">
+        <input type="checkbox" name="topping" value="1.00">
+        <label>anchovies</label>
+        <input type="checkbox" name="topping" value="1.00">
         <label>onions</label>
-        <input type="checkbox">
+        <input type="checkbox" name="topping" value="1.00">
         <label>bannana pepper</label>
-        <input type="checkbox">
+        <input type="checkbox" name="topping" value="1.00">
         <label>spinach</label>
-        <input type="checkbox">
+        <input type="checkbox" name="topping" value="1.00">
         <label>mushroom</label>
       </div>
       <br>
-      <button type="submit" class="btn">Order</button>
+      <button type="submit" class="btn">Place Order</button>
     </form>
+    <div id="thanks">
+      <h3>Thank you for your order!</h3>
+    </div>
   </body>
 </html>
